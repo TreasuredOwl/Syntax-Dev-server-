@@ -1101,14 +1101,7 @@
 				<add stat="pDef" val="70">
 					<using kind="HEAVY" />
 				</add>
-				<add stat="regMp" val="32">
-					<and>
-						<player resting="true" />
-						<or>
-							<player standing="true" />
-						</or>
-					</and>
-				</add>
+				<add stat="regMp" val="32" />
 			</effect>
 		</effects>
 	</skill>
@@ -1152,9 +1145,6 @@
 		<set name="hitTime" val="3000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLevel" val="85" />
-		<conditions msgId="2958">
-			<player hasAgathion="false" />
-		</conditions>
 		<effects>
 			<effect name="SummonAgathion">
 				<param npcId="16073" />
