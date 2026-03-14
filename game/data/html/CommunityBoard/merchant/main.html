@@ -10,7 +10,7 @@
 					<tr>
 						<td>
 							<table width="180" height="490" background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
-																<tr>
+								<tr>
 									<td>
 										<table width=180>
 										</table>
@@ -36,7 +36,7 @@
 										<table width=200>
 											<tr>
 												<td align=center>
-													<button value="Головна" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.home_btn_over" fore="L2EssenceCommunity.home_btn">
+													<button value="Home" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.home_btn_over" fore="L2EssenceCommunity.home_btn">
 												</td>
 											</tr>
 										</table>
@@ -47,7 +47,7 @@
 										<table width=200>
 											<tr>
 												<td align=center>
-													<button value="GM Shop" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.gmshop_btn_over" fore="L2EssenceCommunity.gmshop_btn">
+													<button value="GM Shop" action="bypass _bbstop;merchant/main.html" width=177 height=33 back="L2EssenceCommunity.gmshop_btn_over" fore="L2EssenceCommunity.gmshop_btn">
 												</td>
 											</tr>
 										</table>
@@ -58,7 +58,7 @@
 										<table width=200>
 											<tr>
 												<td align=center>
-													<button value="Buffer" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.buffer_btn_over" fore="L2EssenceCommunity.buffer_btn">
+													<button value="Buffer" action="bypass _bbsbuffer" width=177 height=33 back="L2EssenceCommunity.buffer_btn_over" fore="L2EssenceCommunity.buffer_btn">
 												</td>
 											</tr>
 										</table>
@@ -69,7 +69,7 @@
 										<table width=200>
 											<tr>
 												<td align=center>
-													<button value="Teleport" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.teleport_btn_over" fore="L2EssenceCommunity.teleport_btn">
+													<button value="Buffs Premium" action="bypass _cbbbuffer" width=177 height=33 back="L2EssenceCommunity.buffer_btn_over" fore="L2EssenceCommunity.buffer_btn">
 												</td>
 											</tr>
 										</table>
@@ -80,7 +80,7 @@
 										<table width=200>
 											<tr>
 												<td align=center>
-													<button value="Account Service" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.acc_services_btn_over" fore="L2EssenceCommunity.acc_services_btn">
+													<button value="Teleport" action="bypass _bbstop;gatekeeper/main.html" width=177 height=33 back="L2EssenceCommunity.teleport_btn_over" fore="L2EssenceCommunity.teleport_btn">
 												</td>
 											</tr>
 										</table>
@@ -91,7 +91,7 @@
 										<table width=200>
 											<tr>
 												<td align=center>
-													<button value="Item Broker" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.itembroker_btn_over" fore="L2EssenceCommunity.itembroker_btn">
+													<button value="Premium" action="bypass _bbstop;premium/main.html" width=177 height=33 back="L2EssenceCommunity.acc_services_btn_over" fore="L2EssenceCommunity.acc_services_btn">
 												</td>
 											</tr>
 										</table>
@@ -102,19 +102,42 @@
 										<table width=200>
 											<tr>
 												<td align=center>
-													<button value="Rankings" action="bypass _bbshome" width=177 height=33 back="L2EssenceCommunity.rankings_btn_over" fore="L2EssenceCommunity.rankings_btn">
+													<button value="Search Item" action="bypass _bbstop;dropsearch/main.html" width=177 height=33 back="L2EssenceCommunity.itembroker_btn_over" fore="L2EssenceCommunity.itembroker_btn">
 												</td>
 											</tr>
 										</table>
 									</td>
 								</tr>
+								<tr>
+									<td>
+										<table width=200>
+											<tr>
+												<td align=center>
+													<button value="Rankings" action="bypass _bbstopboard" width=177 height=33 back="L2EssenceCommunity.rankings_btn_over" fore="L2EssenceCommunity.rankings_btn">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<table width=200>
+											<tr>
+												<td align=center>
+													<button value="Delevel" action="bypass _bbstop;delevel/main.html" width=177 height=33 back="L2EssenceCommunity.home_btn_over" fore="L2EssenceCommunity.home_btn">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							    <!--- .Premium --->
 								<tr>
 									<td>
 										<table width=200>
 									<tr>
 										<td width=4 align=center valign=center> | </td>
 										<td width=80 align=right valign=center>
-											<font name="hs10" color="FF4500">Преміум</font>
+											<font name="hs10" color="FF4500">Status</font>
 										</td>
 										<td width=4 align=center valign=center> : </td>
 										<td width=80 align=left valign=center>
@@ -124,6 +147,7 @@
 										</table>
 									</td>
 								</tr>
+							 <!--- .Premium --->
 								<tr>
 									<td>
 										<table width=200>
@@ -154,7 +178,7 @@
 											<tr><td height=10></td></tr>
 											<tr>
 												<td align=center>
-													<font name="hs16">Community Services</font>
+													<font name="hs16" color="FF4500">Services Description</font>
 												</td>
 											</tr>
 										</table>
@@ -176,9 +200,9 @@
 															<td width=100 height=56>
 																<font color="LEVEL" name="hs12">GateKeeper</font><br1><font color="808080">Travel Around the World.</font>
 															</td>
-															<td width=147></td>
+															<td width=180></td>
 															<td width=90>
-																<button value="Open" action="bypass _bbshome" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
+																<button value="Open" action="bypass _bbstop;gatekeeper/main.html" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
 															</td>
 															<td width=5></td>
 														</tr>
@@ -192,14 +216,56 @@
 														<tr>
 															<td width=5></td>
 															<td width=32 height=56>
-																<img src=L2EssenceCommunity.buffer width=32 height=32>
+																<img src=Icon.skill6288 width=32 height=32>
 															</td>
 															<td width=100 height=56>
-																<font color="LEVEL" name="hs12">Buffer</font><br1><font color="808080">Normal Buffs, Songs and Dances.</font>
+																<font color="LEVEL" name="hs12">General Shop</font><br1><font color="808080">Buy Gear and Consumables.</font>
+															</td>
+															<td width=160></td>
+															<td width=90>
+																<button value="Open" action="bypass _bbstop;merchant/gmshop.html" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
+															</td>
+															<td width=5></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table width=560 background="L2EssenceCommunity.services-bg">
+														<tr><td height=10></td></tr>
+														<tr>
+															<td width=5></td>
+															<td width=32 height=56>
+																<img src=BranchSys2.skill0952 width=32 height=32>
+															</td>
+															<td width=100 height=56>
+																<font color="LEVEL" name="hs12">Exclusive Shop</font><br1><font color="808080">Items from Events.</font>
+															</td>
+															<td width=215></td>
+															<td width=90>
+																<button value="Open" action="bypass _bbstop;merchant/exclusiveShop.html" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
+															</td>
+															<td width=5></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table width=560 background="L2EssenceCommunity.services-bg">
+														<tr><td height=10></td></tr>
+														<tr>
+															<td width=5></td>
+															<td width=32 height=56>
+																<img src=Icon.skill0818 width=32 height=32>
+															</td>
+															<td width=100 height=56>
+																<font color="LEVEL" name="hs12">Blacksmith</font><br1><font color="808080">Special Abilities, Crafting, Upgrading.</font>
 															</td>
 															<td width=100></td>
 															<td width=90>
-																<button value="Open" action="bypass _bbshome" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
+																<button value="Open" action="bypass _bbstop;merchant/blacksmith.html" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
 															</td>
 															<td width=5></td>
 														</tr>
@@ -213,14 +279,14 @@
 														<tr>
 															<td width=5></td>
 															<td width=32 height=56>
-																<img src=L2EssenceCommunity.gmshop width=32 height=32>
+																<img src=Icon.etc_int_symbol_i01 width=32 height=32>
 															</td>
 															<td width=100 height=56>
-																<font color="LEVEL" name="hs12">GM Shop</font><br1><font color="808080">Buy Gear and Consumables.</font>
+																<font color="LEVEL" name="hs12">Symbol Maker</font><br1><font color="808080">You can draw, buy or delete.</font>
 															</td>
-															<td width=130></td>
+															<td width=155></td>
 															<td width=90>
-																<button value="Open" action="bypass _bbshome" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
+																<button value="Open" action="bypass _bbstop;merchant/symbolMaker.html" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
 															</td>
 															<td width=5></td>
 														</tr>
@@ -234,77 +300,35 @@
 														<tr>
 															<td width=5></td>
 															<td width=32 height=56>
-																<img src=L2EssenceCommunity.classmaster width=32 height=32>
-															</td>
-															<td width=100 height=56>
-																<font color="LEVEL" name="hs12">Class Master</font><br1><font color="808080">Change your Class.</font>
-															</td>
-															<td width=175></td>
-															<td width=90>
-																<button value="Open" action="bypass _bbshome" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
-															</td>
-															<td width=5></td>
-														</tr>
-													</table>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<table width=560 background="L2EssenceCommunity.services-bg">
-														<tr><td height=10></td></tr>
-														<tr>
-															<td width=5></td>
-															<td width=32 height=56>
-																<img src=L2EssenceCommunity.donation_store width=32 height=32>
-															</td>
-															<td width=100 height=56>
-																<font color="LEVEL" name="hs12">Donation Store</font><br1><font color="808080">Support Server by Buying items.</font>
-															</td>
-															<td width=117></td>
-															<td width=90>
-																<button value="Open" action="bypass _bbshome" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
-															</td>
-															<td width=5></td>
-														</tr>
-													</table>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<table width=560 background="L2EssenceCommunity.services-bg">
-														<tr><td height=10></td></tr>
-														<tr>
-															<td width=5></td>
-															<td width=32 height=56>
-																<img src=L2EssenceCommunity.vip_store width=32 height=32>
-															</td>
-															<td width=100 height=56>
-																<font color="LEVEL" name="hs12">VIP Store</font><br1><font color="808080">Items from Events.</font>
-															</td>
-															<td width=175></td>
-															<td width=90>
-																<button value="Open" action="bypass _bbshome" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
-															</td>
-															<td width=5></td>
-														</tr>
-													</table>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<table width=560 background="L2EssenceCommunity.services-bg">
-														<tr><td height=10></td></tr>
-														<tr>
-															<td width=5></td>
-															<td width=32 height=56>
-																<img src=L2EssenceCommunity.warehouse width=32 height=32>
+																<img src=Icon.skill0629 width=32 height=32>
 															</td>
 															<td width=100 height=56>
 																<font color="LEVEL" name="hs12">Warehouse</font><br1><font color="808080">Deposit and Withdraw items.</font>
 															</td>
-															<td width=125></td>
+															<td width=155></td>
 															<td width=90>
-																<button value="Open" action="bypass _bbshome" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
+																<button value="Open" action="bypass _bbstop;merchant/warehouse.html" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
+															</td>
+															<td width=5></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table width=560 background="L2EssenceCommunity.services-bg">
+														<tr><td height=10></td></tr>
+														<tr>
+															<td width=5></td>
+															<td width=32 height=56>
+																<img src=Icon.skill0508 width=32 height=32>
+															</td>
+															<td width=100 height=56>
+																<font color="LEVEL" name="hs12">Visual Dress</font><br1><font color="808080">Donation Store.</font>
+															</td>
+															<td width=245></td>
+															<td width=90>
+																<button value="Open" action="bypass -h voice .dressme" width=89 height=33 back="L2EssenceCommunity.big_btn_over" fore="L2EssenceCommunity.big_btn">
 															</td>
 															<td width=5></td>
 														</tr>
