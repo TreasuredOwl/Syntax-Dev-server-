@@ -154,13 +154,13 @@
 								<tr>
 									<td width=5></td>
 									<td>
-										<!--- thank you - options --->
+										<!--- drop search - options --->
 										<center>
 										<table width=570>
 											<tr><td height=10></td></tr>
 											<tr>
 												<td align=center>
-													<font name="hs16" color="FF4500">~~~Thank You~~~</font>
+													<font name="hs16" color="FF4500">Drop Search</font>
 												</td>
 											</tr>
 											<tr><td height=10></td></tr>
@@ -169,39 +169,39 @@
 											<tr><td height=10></td></tr>
 											<tr>
 												<td align=center>
-													<font name="hs12" color="LEVEL">1. Premium benefits CAN NOT BE TRANSFERED.</font>
+													<font name="hs12" color="LEVEL">1. Input item name or partial name to search for items.</font>
 												</td>
 											</tr>
 											<tr>
 												<td align=center>
-													<font name="hs12" color="LEVEL">2. Premium does not effect party members.</font>
+													<font name="hs12" color="LEVEL">2. Choose item icon to search for drops.</font>
 											</td>
 											</tr>
-											<tr>
-												<td align=center>
-													<font name="hs12" color="LEVEL">3. Premium benefits effect ALL characters in same account.</font>
-											</td>
-											</tr>
-											<tr>
-												<td align=center>
-													<font name="hs12" color="LEVEL">Your premium status can be checked</font>
-												</td>
-											</tr>
-											<tr>
-												<td align=center>
-													<font name="hs12" color="LEVEL">by typing following command in chat</font>
-											</td>
-											</tr>
-											<tr>
-												<td align=center>
-													<font name="hs14" color="00A5FF">.premium</font>
-											</td>
-											</tr>
+                                            <tr>
+							                <td height=15 align="center">
+								             <table>
+									         <tr>
+										      <td width=70>ItemName~~</td><td><edit width=200 var="itemname"></td>
+										       <td><button value="Search" action="bypass _bbs_search_item $itemname" width=60 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+									        </tr>
+								          </table>
+							           </td>
+							          </tr>
+									  <tr>
+								<td align="center">	
+									<table align=center border="0" height=250>
+										%searchResult%
+									</table>
+									<table align=center border="0">
+										%pages%
+									</table>
+								</td>
+							</tr>
 											<tr><td height=10></td></tr>
 										</table>
 										</center>
 									</td>
-									<!--- thank you - options --->
+									<!--- drop search - options --->
 								</tr>
 							</table>
 						</td>
