@@ -1,0 +1,14 @@
+бер. 16, 2026 3:22:36 ПП com.l2journey.loginserver.LoginServer <init>
+SEVERE: FATAL: Failed to start the Game Server Listener. Reason: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:522)
+	at java.base/sun.nio.ch.Net.bind(Net.java:511)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:641)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+	at com.l2journey.loginserver.FloodProtectedListener.<init>(FloodProtectedListener.java:62)
+	at com.l2journey.loginserver.GameServerListener.<init>(GameServerListener.java:47)
+	at com.l2journey.loginserver.LoginServer.<init>(LoginServer.java:113)
+	at com.l2journey.loginserver.LoginServer.main(LoginServer.java:210)
+
