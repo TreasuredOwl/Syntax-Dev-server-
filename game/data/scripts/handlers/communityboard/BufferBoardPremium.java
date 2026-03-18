@@ -69,7 +69,7 @@ public class BufferBoardPremium implements IParseBoardHandler
 {
 	private static final Logger LOG = Logger.getLogger(BufferBoardPremium.class.getName());
 	
-	private static final String TITLE = "Community Buffer Premium";
+	private static final String TITLE = "Community Buffer Premium -Syntax-Dev";
 	private static final String[] COMMANDS =
 	{
 		"_cbbbuffer"

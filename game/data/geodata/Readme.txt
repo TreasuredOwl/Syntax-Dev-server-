@@ -1,27 +1,27 @@
 ##############################################
-GEODATA COMPENDIUM
+КОМПЕНДІУМ ГЕОДАННИХ
 ##############################################
 
-Comprehensive guide for geodata.
+Комплексний посібник з геоданих.
 
-How to configure it
-	a - Prerequisites
-	b - Make it work
+Як налаштувати
+	a - Передумови
+	b - Зробити працездатним
 
 ##############################################
-How to configure it
+Як налаштувати
 ##############################################
 
 ----------------------------------------------
-a - Prerequisites
+a - Передумови
 ----------------------------------------------
 
-* A 64bits Windows/Java JDK is a must-have to run server with geodata. Linux servers don't have the issue.
-* The server can start (hardly) with -Xmx3000m. -Xmx4g is recommended.
+* Для запуску сервера з геоданими обов'язково потрібна 64-бітна Windows/Java JDK. Сервери Linux не мають цієї проблеми.
+* Сервер може запуститися (з труднощами) з -Xmx3000m. Рекомендується -Xmx4g.
 
 ----------------------------------------------
-b - Make it work
+b - Зробити працездатним
 ----------------------------------------------
 
-To make geodata work:
-* unpack your geodata files into "/data/geodata" folder (or any other folder)
+Щоб зробити геодані працездатними:
+* розпакуйте ваші файли геоданих у папку "/data/geodata" (або будь-яку іншу папку)
