@@ -1,0 +1,336 @@
+2026.05.31 21:54:45,825	INFO	3	com.l2journey.commons.util.IXmlReader	Network Config: ipconfig.xml exists, using manual configuration...
+2026.05.31 21:54:46,152	INFO	3	com.l2journey.Config	Loaded 6 Filter Words.
+2026.05.31 21:54:46,179	INFO	3	com.l2journey.gameserver.GameServer	------------------------------------------------=[ Database ]
+2026.05.31 21:54:46,504	INFO	3	com.l2journey.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2026.05.31 21:54:46,869	INFO	3	com.l2journey.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2026.05.31 21:54:46,887	INFO	3	com.l2journey.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2026.05.31 21:54:46,890	INFO	3	com.l2journey.commons.threads.ThreadPool	ThreadPool: Initialized
+2026.05.31 21:54:46,896	INFO	3	com.l2journey.commons.threads.ThreadPool	...scheduled pool executor with 8 high priority threads.
+2026.05.31 21:54:46,905	INFO	3	com.l2journey.commons.threads.ThreadPool	...scheduled pool executor with 32 total threads.
+2026.05.31 21:54:46,905	INFO	3	com.l2journey.commons.threads.ThreadPool	...instant pool executor with 16 total threads.
+2026.05.31 21:54:46,910	INFO	3	com.l2journey.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2026.05.31 21:54:46,991	INFO	3	com.l2journey.gameserver.managers.DatabaseIdManager	DatabaseIdManager: Cleaned 0 elements in 0 seconds.
+2026.05.31 21:54:46,999	INFO	3	com.l2journey.gameserver.managers.DatabaseIdManager	DatabaseIdManager: Updated character online status.
+2026.05.31 21:54:47,014	INFO	3	com.l2journey.gameserver.managers.DatabaseIdManager	DatabaseIdManager: Cleaned 0 expired timestamps.
+2026.05.31 21:54:47,056	INFO	3	com.l2journey.gameserver.managers.IdManager	IdManager: 102912 ids available.
+2026.05.31 21:54:47,060	INFO	3	com.l2journey.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2026.05.31 21:54:47,567	INFO	3	com.l2journey.gameserver.scripting.ScriptEngineManager	Loaded 440 files to exclude.
+2026.05.31 21:54:47,567	INFO	3	com.l2journey.gameserver.GameServer	---------------------------------------------------=[ World ]
+2026.05.31 21:54:47,578	INFO	3	com.l2journey.commons.util.IXmlReader	InstanceManager: Multiverse Instance created.
+2026.05.31 21:54:47,579	INFO	3	com.l2journey.commons.util.IXmlReader	InstanceManager: Universe Instance created.
+2026.05.31 21:54:47,612	INFO	3	com.l2journey.commons.util.IXmlReader	InstanceManager: Loaded 160 instance names.
+2026.05.31 21:54:48,749	INFO	3	com.l2journey.commons.util.IXmlReader	InstanceManager: Loaded 142 instance templates.
+2026.05.31 21:54:49,047	INFO	3	com.l2journey.commons.util.IXmlReader	MapRegionManager: Loaded 57 map regions.
+2026.05.31 21:54:49,062	INFO	3	com.l2journey.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Loaded 14 variables.
+2026.05.31 21:54:49,062	INFO	3	com.l2journey.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2026.05.31 21:54:49,124	INFO	3	com.l2journey.gameserver.data.xml.CategoryData	CategoryData: Loaded 180 categories.
+2026.05.31 21:54:49,145	INFO	3	com.l2journey.commons.util.IXmlReader	SecondaryAuthData: Loaded 328 forbidden passwords.
+2026.05.31 21:54:49,148	INFO	3	com.l2journey.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2026.05.31 21:54:53,846	INFO	3	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 169 effect handlers.
+2026.05.31 21:54:53,904	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+2026.05.31 21:54:55,313	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 17176 Class Skills for 103 class skill trees.
+2026.05.31 21:54:55,318	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 76 sub-class skills.
+2026.05.31 21:54:55,326	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 77 transfer skills for 3 transfer skill trees.
+2026.05.31 21:54:55,330	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 117 fishing skills, 8 Dwarven only fishing skills.
+2026.05.31 21:54:55,339	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 3 collect skills.
+2026.05.31 21:54:55,348	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 94 clan skills, 64 for clan and 30 residential.
+2026.05.31 21:54:55,356	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 18 sub-pledge skills.
+2026.05.31 21:54:55,357	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 32 transform skills.
+2026.05.31 21:54:55,358	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 8 noble skills.
+2026.05.31 21:54:55,360	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 5 hero skills.
+2026.05.31 21:54:55,361	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master skills.
+2026.05.31 21:54:55,362	INFO	3	com.l2journey.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master aura skills.
+2026.05.31 21:55:04,586	INFO	3	com.l2journey.gameserver.data.xml.SkillData	SkillData: Loaded 65966 Skill templates from XML files.
+2026.05.31 21:55:04,712	INFO	3	com.l2journey.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 881 skills.
+2026.05.31 21:55:04,713	INFO	3	com.l2journey.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2026.05.31 21:55:07,220	INFO	3	com.l2journey.gameserver.data.xml.ItemData	ItemData: Highest item id used: 50000
+2026.05.31 21:55:07,228	INFO	3	com.l2journey.gameserver.data.xml.ItemData	ItemData: Loaded 11482 etc items.
+2026.05.31 21:55:07,229	INFO	3	com.l2journey.gameserver.data.xml.ItemData	ItemData: Loaded 3825 armor items.
+2026.05.31 21:55:07,230	INFO	3	com.l2journey.gameserver.data.xml.ItemData	ItemData: Loaded 3893 weapon items.
+2026.05.31 21:55:07,230	INFO	3	com.l2journey.gameserver.data.xml.ItemData	ItemData: Loaded 19200 items in total.
+2026.05.31 21:55:07,245	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 4 item group templates.
+2026.05.31 21:55:07,245	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2026.05.31 21:55:07,246	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemGroupsData: Max weapon enchant is set to 16.
+2026.05.31 21:55:07,247	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemGroupsData: Max armor enchant is set to 16.
+2026.05.31 21:55:07,248	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemGroupsData: Max accessory enchant is set to 16.
+2026.05.31 21:55:07,262	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemData: Loaded 63 enchant scrolls.
+2026.05.31 21:55:07,263	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemData: Loaded 20 support items.
+2026.05.31 21:55:09,658	INFO	3	com.l2journey.gameserver.data.xml.OptionData	OptionData: Loaded 24985 options.
+2026.05.31 21:55:09,679	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemOptionsData: Loaded 23 items and 1093 options.
+2026.05.31 21:55:09,690	INFO	3	com.l2journey.commons.util.IXmlReader	ElementalAttributeData: Loaded 30 elemental attribute items.
+2026.05.31 21:55:09,706	INFO	3	com.l2journey.commons.util.IXmlReader	EnchantItemHPBonusData: Loaded 6 enchant HP bonuses.
+2026.05.31 21:55:09,713	INFO	3	com.l2journey.gameserver.data.MerchantPriceConfigTable	MerchantPriceConfigTable: Loaded 28 merchant price configs.
+2026.05.31 21:55:12,404	INFO	3	com.l2journey.gameserver.data.xml.BuyListData	BuyListData: Loaded 760 buyLists.
+2026.05.31 21:55:13,922	INFO	3	com.l2journey.commons.util.IXmlReader	MultisellData: Loaded 246 multisell lists.
+2026.05.31 21:55:14,052	INFO	3	com.l2journey.commons.util.IXmlReader	RecipeData: Loaded 1000 recipes.
+2026.05.31 21:55:14,156	INFO	3	com.l2journey.commons.util.IXmlReader	ArmorSetData: Loaded 204 armor sets.
+2026.05.31 21:55:14,181	INFO	3	com.l2journey.commons.util.IXmlReader	FishData: Loaded 278 fishes.
+2026.05.31 21:55:14,188	INFO	3	com.l2journey.commons.util.IXmlReader	FishingMonstersData: Loaded 8 fishing monsters.
+2026.05.31 21:55:14,194	INFO	3	com.l2journey.commons.util.IXmlReader	FishingRodsData: Loaded 6 fishing rods.
+2026.05.31 21:55:14,253	INFO	3	com.l2journey.commons.util.IXmlReader	HennaData: Loaded 180 henna data.
+2026.05.31 21:55:14,258	INFO	3	com.l2journey.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2026.05.31 21:55:14,265	INFO	3	com.l2journey.commons.util.IXmlReader	ClassListData: Loaded 103 class data.
+2026.05.31 21:55:14,276	INFO	3	com.l2journey.commons.util.IXmlReader	InitialEquipmentData: Loaded 11 initial equipment data.
+2026.05.31 21:55:14,285	INFO	3	com.l2journey.commons.util.IXmlReader	InitialShortcutData: Loaded 5 initial global shortcut data.
+2026.05.31 21:55:14,286	INFO	3	com.l2journey.commons.util.IXmlReader	InitialShortcutData: Loaded 4 initial shortcut data.
+2026.05.31 21:55:14,287	INFO	3	com.l2journey.commons.util.IXmlReader	InitialShortcutData: Loaded 0 macro presets.
+2026.05.31 21:55:14,296	INFO	3	com.l2journey.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 86 levels.
+2026.05.31 21:55:14,296	INFO	3	com.l2journey.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 85.
+2026.05.31 21:55:14,297	INFO	3	com.l2journey.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 86.
+2026.05.31 21:55:14,309	INFO	3	com.l2journey.commons.util.IXmlReader	KarmaData: Loaded 85 karma modifiers.
+2026.05.31 21:55:14,314	INFO	3	com.l2journey.commons.util.IXmlReader	HitConditionBonusData: Loaded hit condition bonuses.
+2026.05.31 21:55:15,370	INFO	3	com.l2journey.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 103 character templates.
+2026.05.31 21:55:15,371	INFO	3	com.l2journey.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 52530 level up gain records.
+2026.05.31 21:55:15,379	INFO	3	com.l2journey.gameserver.data.sql.CharInfoTable	CharInfoTable: Loaded 1 char names.
+2026.05.31 21:55:15,396	INFO	3	com.l2journey.gameserver.data.xml.AdminData	AdminData: Loaded 10 access levels.
+2026.05.31 21:55:15,416	INFO	3	com.l2journey.gameserver.data.xml.AdminData	AdminData: Loaded 476 access commands.
+2026.05.31 21:55:15,431	INFO	3	com.l2journey.gameserver.managers.RaidBossPointsManager	RaidBossPointsManager: Loaded 0 Characters Raid Points.
+2026.05.31 21:55:17,754	INFO	3	com.l2journey.commons.util.IXmlReader	PetDataTable: Loaded 52 pets.
+2026.05.31 21:55:17,761	INFO	3	com.l2journey.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2026.05.31 21:55:17,811	INFO	3	com.l2journey.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+2026.05.31 21:55:17,814	INFO	3	com.l2journey.gameserver.data.sql.ClanTable	ClanTable: Restored 0 clans from the database.
+2026.05.31 21:55:17,834	INFO	3	com.l2journey.gameserver.managers.CHSiegeManager	CHSiegeManager: Loaded 6 conquerable clan halls.
+2026.05.31 21:55:18,018	INFO	3	com.l2journey.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Loaded 38 auction(s)
+2026.05.31 21:55:18,023	INFO	3	com.l2journey.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 0 clan halls
+2026.05.31 21:55:18,024	INFO	3	com.l2journey.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 38 free clan halls
+2026.05.31 21:55:18,025	INFO	3	com.l2journey.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2026.05.31 21:55:18,029	INFO	3	com.l2journey.commons.terrain.geoengine.NullDriver	Geodata disabled
+2026.05.31 21:55:18,029	INFO	3	com.l2journey.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2026.05.31 21:55:18,110	INFO	3	com.l2journey.gameserver.managers.ZoneManager	ZoneManager 17 by 18 Zone Region Grid set up.
+2026.05.31 21:55:25,644	INFO	3	com.l2journey.commons.util.IXmlReader	NpcData: Loaded 10461 NPCs.
+2026.05.31 21:55:25,742	INFO	3	com.l2journey.commons.util.IXmlReader	NpcData: Loaded 30 custom NPCs.
+2026.05.31 21:55:25,761	INFO	3	com.l2journey.commons.util.IXmlReader	SkillLearnData: Loaded 256 skill learn data.
+2026.05.31 21:55:25,782	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Gigantic Chaos Golem(25512) status is 0.
+2026.05.31 21:55:25,795	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0.
+2026.05.31 21:55:25,799	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Core(29006) status is 0.
+2026.05.31 21:55:25,800	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Orfen(29014) status is 0.
+2026.05.31 21:55:25,808	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Baium(29020) status is 0.
+2026.05.31 21:55:25,813	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Valakas(29028) status is 0.
+2026.05.31 21:55:25,816	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Antharas(29068) status is 0.
+2026.05.31 21:55:25,823	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Beleth(29118) status is 0.
+2026.05.31 21:55:25,825	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Loaded 8 Instances
+2026.05.31 21:55:26,539	INFO	3	com.l2journey.gameserver.managers.ZoneManager	ZoneManager: Loaded 35 zone classes and 2867 zones.
+2026.05.31 21:55:26,554	INFO	3	com.l2journey.gameserver.managers.ZoneManager	ZoneManager: Last static id 200224.
+2026.05.31 21:55:26,888	INFO	3	com.l2journey.commons.util.IXmlReader	DoorData: Loaded 1301 doors.
+2026.05.31 21:55:26,905	INFO	3	FenceData	FenceData: Loaded 1 fences.
+2026.05.31 21:55:26,947	INFO	3	com.l2journey.gameserver.data.xml.LevelUpCrystalData	Soul crystal data : Loaded 54
+2026.05.31 21:55:26,950	INFO	3	com.l2journey.gameserver.data.xml.LevelUpCrystalData	Npc leveling crystal data : Loaded 240
+2026.05.31 21:55:29,246	INFO	3	com.l2journey.gameserver.managers.WalkingManager	WalkingManager: Loaded 123 walking routes.
+2026.05.31 21:55:29,264	INFO	3	com.l2journey.commons.util.IXmlReader	StaticObjectData: Loaded 51 static object templates.
+2026.05.31 21:55:29,287	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Clearing expired auction: 1
+2026.05.31 21:55:29,330	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32320.
+2026.05.31 21:55:29,339	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 4 on 17:00:00 05.06.26 for instance 32320
+2026.05.31 21:55:29,344	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Clearing expired auction: 2
+2026.05.31 21:55:29,365	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32321.
+2026.05.31 21:55:29,373	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 5 on 17:00:00 01.06.26 for instance 32321
+2026.05.31 21:55:29,381	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Clearing expired auction: 3
+2026.05.31 21:55:29,399	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32322.
+2026.05.31 21:55:29,405	INFO	3	com.l2journey.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 6 on 17:00:00 03.06.26 for instance 32322
+2026.05.31 21:55:29,408	INFO	3	com.l2journey.gameserver.managers.ItemAuctionManager	ItemAuctionManager: Loaded 3 instance(s).
+2026.05.31 21:55:29,456	INFO	3	com.l2journey.gameserver.managers.CastleManager	CastleManager: Loaded 9 castles
+2026.05.31 21:55:29,469	INFO	3	com.l2journey.gameserver.data.SchemeBufferTable	SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+2026.05.31 21:55:29,474	INFO	3	com.l2journey.gameserver.managers.GrandBossManager	GrandBossManager: Initialized 8 Grand Boss Zones
+2026.05.31 21:55:29,477	INFO	3	com.l2journey.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2026.05.31 21:55:30,121	INFO	3	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2026.05.31 21:55:30,122	INFO	3	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2026.05.31 21:55:30,123	INFO	3	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: 0 days, 14 hours and 4 mins until period ends.
+2026.05.31 21:55:30,123	INFO	3	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 6 days, 23 hours and 14 mins.
+2026.05.31 21:55:30,124	INFO	3	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2026.05.31 21:55:30,136	INFO	3	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 0 hours and 0 mins.
+2026.05.31 21:55:30,151	INFO	3	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Sun May 31 18:00:30 EEST 2026
+2026.05.31 21:55:30,161	INFO	3	com.l2journey.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2026.05.31 21:55:30,162	INFO	3	com.l2journey.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2026.05.31 21:55:30,162	INFO	3	com.l2journey.gameserver.GameServer	---------------------------------------------=[ Seven Signs ]
+2026.05.31 21:55:30,164	INFO	70	com.l2journey.gameserver.model.olympiad.Olympiad	Olympiad System: Olympiad Games have started.
+2026.05.31 21:55:30,170	INFO	3	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: Currently in the Quest Event Results period!
+2026.05.31 21:55:30,171	INFO	3	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2026.05.31 21:55:30,173	INFO	3	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2026.05.31 21:55:30,175	INFO	3	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2026.05.31 21:55:30,178	INFO	3	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2026.05.31 21:55:30,180	INFO	3	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period change was in the past (server was offline), changing periods now!
+2026.05.31 21:55:30,181	INFO	40	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2026.05.31 21:55:30,181	INFO	3	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period begins in 0 days, 0 hours and 0 mins.
+2026.05.31 21:55:30,182	INFO	40	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2026.05.31 21:55:30,183	INFO	3	com.l2journey.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2026.05.31 21:55:30,184	INFO	40	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2026.05.31 21:55:30,186	INFO	40	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The No Cabal have won the competition with 0 points!
+2026.05.31 21:55:30,187	INFO	3	com.l2journey.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache.
+2026.05.31 21:55:30,191	INFO	3	com.l2journey.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2026.05.31 21:55:30,202	INFO	40	com.l2journey.gameserver.model.sevensigns.SevenSignsFestival	SevenSignsFestival: Initialization bypassed due to Seal Validation in effect.
+2026.05.31 21:55:30,213	INFO	3	com.l2journey.gameserver.data.sql.TeleportLocationTable	TeleportLocationTable: Loaded 957 teleport location templates.
+2026.05.31 21:55:30,231	INFO	3	com.l2journey.gameserver.data.xml.UIData	UIData: Loaded 4 keys 5 categories.
+2026.05.31 21:55:30,424	INFO	40	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal Validation period has begun!
+2026.05.31 21:55:30,455	INFO	40	com.l2journey.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period change set to Mon Jun 01 18:00:30 EEST 2026
+2026.05.31 21:55:30,481	INFO	3	com.l2journey.gameserver.data.AugmentationData	AugmentationData: Loaded 33960 augmentations.
+2026.05.31 21:55:30,483	INFO	3	com.l2journey.gameserver.data.AugmentationData	AugmentationData: Loaded 2754 accessory augmentations.
+2026.05.31 21:55:30,506	INFO	3	com.l2journey.gameserver.managers.CursedWeaponsManager	CursedWeaponsManager: Loaded : 2 cursed weapon(s).
+2026.05.31 21:55:31,173	INFO	70	com.l2journey.gameserver.model.olympiad.OlympiadGameManager	Olympiad System: Loaded 160 stadiums.
+2026.05.31 21:55:31,753	INFO	3	com.l2journey.commons.util.IXmlReader	TransformData: Loaded 111 transform templates.
+2026.05.31 21:55:31,764	INFO	3	com.l2journey.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2026.05.31 21:55:31,780	INFO	3	com.l2journey.gameserver.managers.DailyRewardManager	DailyRewardManager: Loaded 31 daily rewards.
+2026.05.31 21:55:31,784	INFO	3	com.l2journey.gameserver.managers.DailyRewardManager	DailyRewardManager: Loaded 0 player reward records.
+2026.05.31 21:55:31,787	INFO	3	com.l2journey.gameserver.managers.DailyRewardManager	DailyRewardManager: Next daily reset scheduled for 06:30
+2026.05.31 21:55:31,793	INFO	3	com.l2journey.gameserver.managers.HitmanManager	HitmanManager: Loaded 0 active assassination targets.
+2026.05.31 21:55:31,794	INFO	3	com.l2journey.gameserver.managers.HitmanManager	HitmanManager: Hitman Event Manager initialized.
+2026.05.31 21:55:31,803	INFO	3	com.l2journey.gameserver.network.SystemMessageId	SystemMessageId: Loaded localisations for [br].
+2026.05.31 21:55:31,812	INFO	3	com.l2journey.gameserver.network.NpcStringId	NpcStringId: Loaded localisations for [br].
+2026.05.31 21:55:31,825	INFO	3	com.l2journey.gameserver.data.xml.SendMessageLocalisationData	SendMessageLocalisationData: Loaded localisations for [br].
+2026.05.31 21:55:31,841	INFO	3	com.l2journey.gameserver.data.xml.NpcNameLocalisationData	NpcNameLocalisationData: Loaded localisations for [br].
+2026.05.31 21:55:31,843	INFO	3	com.l2journey.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2026.05.31 21:55:31,856	INFO	3	com.l2journey.gameserver.managers.AirShipManager	AirShipManager: Loaded 0 private airships
+2026.05.31 21:55:31,859	INFO	3	com.l2journey.gameserver.managers.SoDManager	Seed of Destruction Manager: Loaded. Current stage is: 1
+2026.05.31 21:55:31,862	INFO	3	com.l2journey.gameserver.managers.SoIManager	Seed of Infinity Manager: Loaded. Current stage is: 1
+2026.05.31 21:55:31,864	INFO	3	com.l2journey.gameserver.GameServer	Loading server scripts...
+2026.05.31 21:55:40,294	INFO	3	handlers.MasterHandler	Loading Handlers...
+2026.05.31 21:55:40,604	INFO	3	handlers.communityboard.TipsBoard	TipsBoard: Loaded 12 community board tips.
+2026.05.31 21:55:40,649	INFO	3	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2026.05.31 21:55:40,650	INFO	3	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2026.05.31 21:55:40,653	INFO	3	handlers.MasterHandler	AdminCommandHandler: Loaded 460 handlers.
+2026.05.31 21:55:40,656	INFO	3	handlers.MasterHandler	BypassHandler: Loaded 57 handlers.
+2026.05.31 21:55:40,659	INFO	3	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2026.05.31 21:55:40,662	INFO	3	handlers.MasterHandler	CommunityBoardHandler: Loaded 40 handlers.
+2026.05.31 21:55:40,666	INFO	3	handlers.MasterHandler	ItemHandler: Loaded 30 handlers.
+2026.05.31 21:55:40,670	INFO	3	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2026.05.31 21:55:40,672	INFO	3	handlers.MasterHandler	UserCommandHandler: Loaded 17 handlers.
+2026.05.31 21:55:40,673	INFO	3	handlers.MasterHandler	VoicedCommandHandler: Loaded 24 handlers.
+2026.05.31 21:55:40,673	INFO	3	handlers.MasterHandler	TargetHandler: Loaded 34 handlers.
+2026.05.31 21:55:40,673	INFO	3	handlers.MasterHandler	Handlers Loaded...
+2026.05.31 21:56:10,023	INFO	3	ai.areas.DenOfEvil.DenOfEvil	[Den of Evil] Loaded 44 eye spawn locations.
+2026.05.31 21:56:10,095	INFO	3	com.l2journey.gameserver.model.quest.Quest	Handy's Block Checker Event is enabled
+2026.05.31 21:56:10,109	INFO	3	com.l2journey.gameserver.model.quest.Quest	Fantasy Isle: Parade starting at 2026/06/01 01:20 and is scheduled each next 1 hours.
+2026.05.31 21:56:10,116	INFO	3	com.l2journey.gameserver.model.quest.Quest	Fantasy Isle: MC show script starting at 01/06/2026 07:49:10 and is scheduled each next 4 hours.
+2026.05.31 21:56:10,250	INFO	3	ai.areas.Gracia.GraciaLoader	GraciaLoader: Loading Gracia related scripts.
+2026.05.31 21:56:10,458	INFO	3	ai.areas.Hellbound.HellboundLoader	HellboundLoader: Loading Hellbound related scripts:
+2026.05.31 21:56:10,463	INFO	3	com.l2journey.commons.util.IXmlReader	HellboundPointData: Loaded 47 trust point reward data.
+2026.05.31 21:56:10,500	INFO	3	com.l2journey.commons.util.IXmlReader	HellboundSpawns: Loaded 598 Hellbound spawns.
+2026.05.31 21:56:10,508	INFO	3	com.l2journey.gameserver.model.quest.Quest	HellboundEngine: Level: 11
+2026.05.31 21:56:10,509	INFO	3	com.l2journey.gameserver.model.quest.Quest	HellboundEngine: Trust: 4000000
+2026.05.31 21:56:10,511	INFO	3	com.l2journey.gameserver.model.quest.Quest	HellboundEngine: Status: unlocked.
+2026.05.31 21:56:10,693	INFO	3	com.l2journey.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 188 Instances
+2026.05.31 21:56:10,695	INFO	3	com.l2journey.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2026.05.31 21:56:10,874	INFO	3	ai.areas.ImperialTomb.FourSepulchers.FourSepulchers	[Four Sepulchers] Loaded 762 spawn zones data.
+2026.05.31 21:56:10,998	INFO	3	ai.bosses.Core.Core	Core: Loaded 19 minion spawns.
+2026.05.31 21:56:11,054	INFO	3	ai.npc.Achievements.AchievementNpc	Achievements: Loaded
+2026.05.31 21:56:11,061	INFO	3	ai.npc.Achievements.AchievementNpc	AchievementNpc: Categories: 5, Achievements: 15
+2026.05.31 21:56:11,224	INFO	3	com.l2journey.commons.util.IXmlReader	NpcBuffersData: Loaded 33 buffers data.
+2026.05.31 21:56:11,360	CONFIG	3	conquerablehalls.BanditStronghold.BanditStronghold	Bandit StrongHold siege scheduled for Sun Jun 14 12:00:00 EEST 2026.
+2026.05.31 21:56:11,368	CONFIG	3	conquerablehalls.DevastatedCastle.DevastatedCastle	Devastated Castle siege scheduled for Sun Jun 14 12:00:00 EEST 2026.
+2026.05.31 21:56:11,374	CONFIG	3	conquerablehalls.FortressOfResistance.FortressOfResistance	Fortress of Resistance siege scheduled for Sun Jun 14 12:00:00 EEST 2026.
+2026.05.31 21:56:11,384	CONFIG	3	conquerablehalls.FortressOfTheDead.FortressOfTheDead	Fortress of the Dead siege scheduled for Sun Jun 14 12:00:00 EEST 2026.
+2026.05.31 21:56:11,393	CONFIG	3	conquerablehalls.RainbowSpringsChateau.RainbowSpringsChateau	Rainbow Springs siege scheduled for Sun Jun 14 12:00:00 EEST 2026.
+2026.05.31 21:56:11,399	CONFIG	3	conquerablehalls.WildBeastReserve.WildBeastReserve	Beast Farm siege scheduled for Sun Jun 14 12:00:00 EEST 2026.
+2026.05.31 21:56:11,496	INFO	3	custom.LevelSurvey.LevelSurvey	Level Survey System is disabled in configuration.
+2026.05.31 21:56:11,497	INFO	3	custom.LevelSurvey.LevelSurvey	Level Survey System is disabled.
+2026.05.31 21:56:11,572	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Angel Cat has passed... Ignored 
+2026.05.31 21:56:11,584	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Custom Drop Event has passed... Ignored 
+2026.05.31 21:56:11,592	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Freya Celebration has passed... Ignored 
+2026.05.31 21:56:11,601	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Gift of Vitality has passed... Ignored 
+2026.05.31 21:56:11,616	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Heavy Medal has passed... Ignored 
+2026.05.31 21:56:11,632	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event L2 Day has passed... Ignored 
+2026.05.31 21:56:11,650	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Lovers' Jubilee has passed... Ignored 
+2026.05.31 21:56:11,662	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Love Your Gatekeeper has passed... Ignored 
+2026.05.31 21:56:11,672	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Master of Enchanting has passed... Ignored 
+2026.05.31 21:56:11,688	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Saving Santa has passed... Ignored 
+2026.05.31 21:56:11,701	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Valentine Event has passed... Ignored 
+2026.05.31 21:56:11,722	INFO	3	com.l2journey.gameserver.model.quest.Quest	Event Watermelon Ninja has passed... Ignored 
+2026.05.31 21:56:11,811	INFO	3	instances.FinalEmperialTomb.FinalEmperialTomb	[Final Emperial Tomb] Loaded 26 spawn zones data.
+2026.05.31 21:56:11,812	INFO	3	instances.FinalEmperialTomb.FinalEmperialTomb	[Final Emperial Tomb] Loaded 94 spawns data.
+2026.05.31 21:56:11,820	INFO	39	com.l2journey.gameserver.model.quest.Quest	HellboundEngine: Spawned 424 NPCs.
+2026.05.31 21:56:13,837	INFO	3	com.l2journey.gameserver.model.quest.Quest	TerritoryWarSuperClass: Siege date: Sun May 31 22:00:00 EEST 2026
+2026.05.31 21:56:13,981	INFO	3	com.l2journey.gameserver.data.xml.SpawnData	SpawnData: Initializing spawns...
+2026.05.31 21:56:28,633	INFO	3	com.l2journey.gameserver.data.xml.SpawnData	SpawnData: 40645 spawns have been initialized!
+2026.05.31 21:56:28,636	INFO	3	com.l2journey.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Removed 0 night creatures
+2026.05.31 21:56:28,676	INFO	3	com.l2journey.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2026.05.31 21:56:28,685	INFO	3	com.l2journey.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2026.05.31 21:56:28,696	INFO	3	com.l2journey.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2026.05.31 21:56:28,696	INFO	3	com.l2journey.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2026.05.31 21:56:28,713	INFO	3	com.l2journey.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2026.05.31 21:56:28,713	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Gludio: Sun Jun 14 16:00:00 EEST 2026
+2026.05.31 21:56:28,718	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Dion: Sun Jun 14 20:00:00 EEST 2026
+2026.05.31 21:56:28,720	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Giran: Sun Jun 14 16:00:00 EEST 2026
+2026.05.31 21:56:28,722	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Oren: Sun Jun 14 20:00:00 EEST 2026
+2026.05.31 21:56:28,724	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Aden: Sun Jun 14 16:00:00 EEST 2026
+2026.05.31 21:56:28,725	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Innadril: Sun Jun 14 20:00:00 EEST 2026
+2026.05.31 21:56:28,726	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Goddard: Sun Jun 14 16:00:00 EEST 2026
+2026.05.31 21:56:28,728	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Rune: Sun Jun 14 20:00:00 EEST 2026
+2026.05.31 21:56:28,730	INFO	3	com.l2journey.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Jun 14 16:00:00 EEST 2026
+2026.05.31 21:56:28,956	INFO	3	com.l2journey.gameserver.managers.FortManager	FortManager: Loaded 21 fortress
+2026.05.31 21:56:29,208	INFO	3	com.l2journey.commons.util.IXmlReader	CastleManorManager: Loaded 258 seeds.
+2026.05.31 21:56:29,231	INFO	3	com.l2journey.commons.util.IXmlReader	CastleManorManager: Manor data loaded.
+2026.05.31 21:56:29,239	INFO	3	com.l2journey.gameserver.managers.MercTicketManager	MercTicketManager: Loaded 0 Mercenary Tickets
+2026.05.31 21:56:29,240	INFO	3	com.l2journey.gameserver.managers.QuestManager	QuestManager: Loaded 539 quests.
+2026.05.31 21:56:29,240	INFO	3	com.l2journey.gameserver.managers.QuestManager	QuestManager: Loaded 320 scripts.
+2026.05.31 21:56:29,248	INFO	3	com.l2journey.gameserver.managers.games.MonsterRaceManager	MonsterRace: loaded 3 records, currently on race #4
+2026.05.31 21:56:29,266	INFO	3	com.l2journey.gameserver.GameServer	AutoSpawnHandler: Loaded 129 handlers in total.
+2026.05.31 21:56:29,272	INFO	3	com.l2journey.gameserver.managers.CoupleManager	CoupleManager: Loaded 0 couples(s)
+2026.05.31 21:56:29,279	INFO	3	com.l2journey.gameserver.managers.FishingChampionshipManager	FishingChampionshipManager : new event period start.
+2026.05.31 21:56:29,293	INFO	3	com.l2journey.gameserver.managers.games.KrateisCubeManager	KrateisCubeManager: Loaded 3 arena templates.
+2026.05.31 21:56:29,313	INFO	3	com.l2journey.gameserver.managers.games.UndergroundColiseumManager	UndergroundColiseumManager: Loaded 5 coliseum arenas.
+2026.05.31 21:56:29,314	INFO	3	com.l2journey.gameserver.managers.games.UndergroundColiseumManager	UndergroundColiseumManager: Starts at 05/06/2026 21:00:00
+2026.05.31 21:56:29,336	INFO	3	com.l2journey.gameserver.taskmanagers.PersistentTaskManager	PersistentTaskManager: Loaded 10 Tasks.
+2026.05.31 21:56:29,339	INFO	3	com.l2journey.gameserver.managers.MailManager	MailManager: Loaded 0 messages.
+2026.05.31 21:56:29,345	INFO	3	com.l2journey.gameserver.managers.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2026.05.31 21:56:29,348	INFO	3	com.l2journey.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2026.05.31 21:56:29,348	INFO	3	com.l2journey.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1879000399
+2026.05.31 21:56:29,349	INFO	3	com.l2journey.gameserver.GameServer	-------------------------------------------=[ Events Engine ]
+2026.05.31 21:56:29,350	INFO	3	com.l2journey.gameserver.managers.TownWarManager	TownWar: Disabled.
+2026.05.31 21:56:29,350	INFO	3	com.l2journey.gameserver.GameServer	-------------------------------------------------------------
+2026.05.31 21:56:29,354	INFO	104	com.l2journey.commons.util.DeadlockWatcher	DeadlockWatcher: Thread started.
+2026.05.31 21:56:34,264	INFO	3	com.l2journey.gameserver.GameServer	GameServer: Started, using 800 of 4096 MB total memory.
+2026.05.31 21:56:34,264	INFO	3	com.l2journey.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2026.05.31 21:56:34,269	INFO	3	com.l2journey.gameserver.GameServer	GameServer: Server loaded in 108 seconds.
+2026.05.31 21:56:34,311	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.05.31 21:56:34,407	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Damn! Registeration Failed: Reason: wrong hexid
+2026.05.31 21:56:39,410	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.05.31 21:56:39,417	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Damn! Registeration Failed: Reason: wrong hexid
+2026.05.31 21:56:44,419	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.05.31 21:56:44,425	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Damn! Registeration Failed: Reason: wrong hexid
+2026.05.31 21:56:49,428	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.05.31 21:56:49,434	WARNING	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.05.31 21:56:54,435	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.05.31 21:56:54,437	WARNING	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.05.31 21:56:59,442	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.05.31 21:56:59,459	WARNING	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.05.31 21:57:04,462	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.05.31 21:57:04,512	INFO	106	com.l2journey.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 16: Aeterna x5
+2026.05.31 21:57:24,163	WARNING	129	com.l2journey.gameserver.model.actor.Creature	Майстер: TreasuredOwl logged!
+2026.05.31 22:13:52,932	WARNING	173	com.l2journey.commons.util.IXmlReader	MultisellData: can't find list id: 10075 requested by player: TreasuredOwl, npcId:36603
+2026.05.31 22:13:57,154	WARNING	129	com.l2journey.commons.util.IXmlReader	MultisellData: can't find list id: 90038 requested by player: TreasuredOwl, npcId:36603
+2026.05.31 22:14:10,254	WARNING	155	com.l2journey.commons.util.IXmlReader	MultisellData: can't find list id: 90031 requested by player: TreasuredOwl, npcId:36603
+2026.05.31 22:14:24,806	WARNING	164	com.l2journey.commons.util.IXmlReader	MultisellData: can't find list id: 10054 requested by player: TreasuredOwl, npcId:36603
+2026.05.31 22:26:29,090	INFO	53	com.l2journey.gameserver.taskmanagers.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2026.05.31 22:56:28,885	INFO	61	com.l2journey.gameserver.taskmanagers.tasks.TaskSevenSignsUpdate	SevenSigns: Data updated successfully.
+2026.05.31 23:24:20,186	WARNING	71	com.l2journey.gameserver.Shutdown	GM: TreasuredOwl(268480448) issued shutdown command. shutting down in 10 seconds!
+2026.05.31 23:24:30,270	WARNING	396	com.l2journey.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2026.05.31 23:24:30,275	INFO	396	com.l2journey.gameserver.Shutdown	All players disconnected and saved(0ms).
+2026.05.31 23:24:30,276	INFO	396	com.l2journey.gameserver.Shutdown	Game Time Task Manager: Thread interruped(2ms).
+2026.05.31 23:24:30,276	INFO	396	com.l2journey.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2026.05.31 23:24:30,282	INFO	396	com.l2journey.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(6ms).
+2026.05.31 23:24:30,285	INFO	396	com.l2journey.gameserver.Shutdown	Login Server Thread: Thread interruped(3ms).
+2026.05.31 23:24:30,285	INFO	396	com.l2journey.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2026.05.31 23:24:30,286	INFO	396	com.l2journey.gameserver.Shutdown	SevenSigns: Seven Signs data saved(1ms).
+2026.05.31 23:24:30,291	INFO	396	com.l2journey.gameserver.Shutdown	SevenSigns: Seven Signs status saved(5ms).
+2026.05.31 23:24:30,343	INFO	396	com.l2journey.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(52ms).
+2026.05.31 23:24:30,348	INFO	396	com.l2journey.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(5ms).
+2026.05.31 23:24:30,348	INFO	396	com.l2journey.gameserver.Shutdown	Item Auction Manager: All tasks stopped(0ms).
+2026.05.31 23:24:30,353	INFO	396	com.l2journey.gameserver.Shutdown	Olympiad System: Data saved(5ms).
+2026.05.31 23:24:30,354	INFO	396	com.l2journey.gameserver.Shutdown	Hero System: Data saved(1ms).
+2026.05.31 23:24:30,355	INFO	396	com.l2journey.gameserver.Shutdown	Clan System: Data saved(0ms).
+2026.05.31 23:24:30,356	INFO	396	com.l2journey.gameserver.Shutdown	Cursed Weapons Manager: Data saved(2ms).
+2026.05.31 23:24:30,357	INFO	396	com.l2journey.gameserver.Shutdown	Castle Manor Manager: Data saved(1ms).
+2026.05.31 23:24:30,360	CONFIG	396	conquerablehalls.FortressOfTheDead.FortressOfTheDead	FortressOfTheDead: Successfully saved attackers to database.
+2026.05.31 23:24:30,360	CONFIG	396	conquerablehalls.DevastatedCastle.DevastatedCastle	DevastatedCastle: Successfully saved attackers to database.
+2026.05.31 23:24:30,361	CONFIG	396	conquerablehalls.BanditStronghold.BanditStronghold	BanditStronghold: Successfully saved attackers to database.
+2026.05.31 23:24:30,362	CONFIG	396	conquerablehalls.FortressOfResistance.FortressOfResistance	FortressOfResistance: Successfully saved attackers to database.
+2026.05.31 23:24:30,364	CONFIG	396	conquerablehalls.RainbowSpringsChateau.RainbowSpringsChateau	RainbowSpringsChateau: Successfully saved attackers to database.
+2026.05.31 23:24:30,365	CONFIG	396	conquerablehalls.WildBeastReserve.WildBeastReserve	WildBeastReserve: Successfully saved attackers to database.
+2026.05.31 23:24:30,365	INFO	396	com.l2journey.gameserver.Shutdown	CHSiegeManager: Siegable hall attacker lists saved!
+2026.05.31 23:24:30,366	INFO	396	com.l2journey.gameserver.Shutdown	Quest Manager: Data saved(9ms).
+2026.05.31 23:24:30,420	INFO	396	com.l2journey.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 14 variables.
+2026.05.31 23:24:30,420	INFO	396	com.l2journey.gameserver.Shutdown	Global Variables Manager: Variables saved(54ms).
+2026.05.31 23:24:30,421	INFO	396	com.l2journey.gameserver.Shutdown	Fishing Championship data has been saved.
+2026.05.31 23:24:30,447	INFO	396	com.l2journey.gameserver.Shutdown	SchemeBufferTable data has been saved.
+2026.05.31 23:24:30,449	INFO	396	com.l2journey.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2026.05.31 23:24:35,457	INFO	396	com.l2journey.commons.database.DatabaseFactory	Database: HikariCP pool closed successfully.
+2026.05.31 23:24:35,458	INFO	396	com.l2journey.gameserver.Shutdown	Database Factory: Database connection has been shut down(7ms).
+2026.05.31 23:24:35,459	INFO	396	com.l2journey.gameserver.Shutdown	The server has been successfully shut down in 5seconds.

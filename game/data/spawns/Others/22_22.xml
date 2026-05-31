@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
 	<spawn name="22_22">
-		<npc id="4310" x="84858" y="147764" z="-3400" heading="7788" respawnDelay="60" /> <!-- Prophet -->
 		<npc id="4327" x="80932" y="142538" z="-3532" heading="32219" /> <!-- Worshipper -->
 		<npc id="4328" x="80843" y="142395" z="-3531" heading="42017" /> <!-- Altar Guard -->
 		<npc id="4328" x="80848" y="142674" z="-3530" heading="26153" /> <!-- Altar Guard -->
@@ -69,7 +68,6 @@
 		<npc id="30756" x="84521" y="146372" z="-3404" heading="16384" respawnDelay="60" /> <!-- Sir Kristof Rodemai -->
 		<npc id="30767" x="81424" y="149728" z="-3472" heading="49000" respawnDelay="60" /> <!-- Auctioneer -->
 		<npc id="30829" x="81100" y="145840" z="-3531" heading="32768" respawnDelay="60" /> <!-- Cooper -->
-		<npc id="30990" x="83331" y="147905" z="-3400" heading="16700" respawnDelay="5" /> <!-- Lottery Ticket Seller -->
 		<npc id="31031" x="82272" y="147072" z="-3514" heading="16384" respawnDelay="5" /> <!-- Broadcasting Tower -->
 		<npc id="31049" x="83264" y="150176" z="-3520" heading="24576" respawnDelay="60" /> <!-- Pepper -->
 		<npc id="31081" x="83368" y="149315" z="-3431" heading="50417" respawnDelay="60" /> <!-- Priest of Dawn -->
@@ -90,7 +88,6 @@
 		<npc id="32252" x="73339" y="133935" z="-3528" heading="20960" respawnDelay="60" /> <!-- Caravaner Gort -->
 		<npc id="32320" x="81069" y="149398" z="-3464" heading="58312" respawnDelay="60" /> <!-- Item Broker -->
 		<npc id="32327" x="82839" y="149377" z="-3464" heading="49224" respawnDelay="60" /> <!-- Adventurers' Guide -->
-		<npc id="32478" x="82672" y="146752" z="-3464" heading="33000" respawnDelay="60" /> <!-- Dimensional Merchant -->
 		<npc id="32487" x="72540" y="148050" z="-3312" heading="0" respawnDelay="60" /> <!-- Mark -->
 		<npc id="32498" x="85104" y="147616" z="-3400" heading="53248" respawnDelay="60" /> <!-- Devil's Isle Survivor -->
 		<npc id="32641" x="86792" y="162422" z="-3568" heading="7560" respawnDelay="60" /> <!-- Dr. Helvetica -->
@@ -110,5 +107,9 @@
 		<npc id="35458" x="81264" y="151728" z="-3536" heading="0" respawnDelay="60" /> <!-- Theron -->
 		<npc id="35459" x="81920" y="151968" z="-3520" heading="0" respawnDelay="60" /> <!-- Regina -->
 		<npc id="35460" x="81808" y="151776" z="-3536" heading="32000" respawnDelay="60" /> <!-- Trey -->
+		<npc id="32632" x="83648" y="148419" z="-3406" heading="24575" respawnDelay="60" /> <!-- Gracian Survivor -->
+		<npc id="30990" x="83343" y="147951" z="-3406" heading="14219" respawnDelay="5" /> <!-- Lottery Ticket Seller -->
+		<npc id="4310" x="83655" y="147841" z="-3406" heading="51432" respawnDelay="60" /> <!-- Prophet - Sinister -->
+		<npc id="32478" x="82632" y="146870" z="-3468" heading="19739" respawnDelay="60" /> <!-- Dimensional Merchant - Life Energy -->
 	</spawn>
 </list>

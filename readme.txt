@@ -1,88 +1,79 @@
 ==================================================================================================
-Links recomendados
+Доповнення до проєкту
 ==================================================================================================
-Fonte: https://gitlab.com/l2journey/l2journey
-System: https://drive.google.com/drive/folders/1zooE7c60Ez0po7lvlirLpV3j4wCaOSMA?usp=sharing
-Geodata: https://drive.google.com/drive/folders/1-7pJRBCnmEGQZPE2Murd5sz2_q8cR3tG?usp=drive_link
+NPC-Бафер
+NPC-Бафер Преміум
+Система візуалізації Dressme
+Панель користувача
+Панель статистики сервера
+Html-файли перекладені на PT-BR (робота в процесі)
+Налаштування html-файлів за ексклюзивним стандартом проєкту (робота в процесі)
+Команда для адміністратора для перегляду вмісту інвентарю гравця
+Команда для адміністратора для видалення предметів безпосередньо з інвентарю гравця
+Команда для адміністратора для перегляду складу гравця
+Команда для адміністратора для перегляду кланового складу гравця
+Mana potion та Mana drug працюють як лікувальнє зілля
+Інтегрована система балансування шкоди
+Мод для повернення бафів
+Система енергії Агатіонів (Soul Avatar)
+Мод Daily Reward (щоденні нагороди)
+Подія Hitman
+Додана підтримка Docker Compose
+Власна CommunityBuffer проєкту
+
+==================================================================================================
+Кастомні NPC
+==================================================================================================
+id 12 - Бафер
+id 15 - Преміум Бафер
+id 36603 - GM Shop
+id 36604 - Менеджер рівнів
+id 70000 - Менеджер досягнень
+id 70001 - Колекційні архіви (в розробці)
+id 1003000 - Ноблес
 
 
 ==================================================================================================
-Adições ao projeto
+Список виправлень (скорочений)
 ==================================================================================================
-Npc Buffer
-Npc Buffer Premium
-Sistema visual Dressme
-Painel de usuário
-Painel d estatísticas do servidor
-Htmls Traduzidas para PT-BR (Trabalho em andamento)
-Customização de htmls em um padrão exclusivo do projeto (Trabalho em andamento)
-Comando para admin olhar diretamente na bag do player
-Comando para admin apagar itens diretamente na bag do player
-Comando para admin olhar a warehouse do player
-Comando para admin olhar a warehouse do clan de algum player
-Mana potion e Mana drug funcionando como poções de vida
-Sistema integrado de balanceamento de dano
-Add mod para retorno de buffs
-Sistema de Energia dos Agathions (Soul Avatar)
-Mod Daily Reward (Premiações diarias)
-Evento Hitman
-Add support for Docker Compose
-CommunityBuffer propria do projeto
+Монстри бафають самі себе
+ШІ різних монстрів та босів не працював (Cruma, Den of Evil, Forest of Dead)
+Глобальний чат не відображав повідомлення
+Валідація HexId запобігає автоматичному створенню інших світів у меню
+Додано відсутні скіли агатіонів
+Скіл Chain Heal працює згідно з описом
+Переміщення монстрів через geodata
+Регенерація вихованців синхронізована з інтерфейсом користувача (UI)
+Вихованці з системою підтримки та атаки
+Скіли вихованців синхронізовані з рівнем в інтерфейсі
+Dark Cloud Mansion тепер не викликає помилку в останній кімнаті
+Mana Potion та Mana Drug працюють як зілля
+Ефекти зон з точною ймовірністю
+Повідомлення Four Sepulcher не залишаються порожніми
+Команда CombineTalisman тепер об'єднує талісмани
+У Elrokians є всі html-файли
+Delusion Chamber тепер телепортує в останню кімнату
+Npc NoblessMaster тепер бере плату за послуги
+Скасування (Cancel) у босів тепер не 100%
+Табло CTF тепер відображає рахунок
+Олімпіада показує табло після закінчення боїв
+Купальні в HotSpring поступово знімають ефекти хвороб
+Виправлено позиції деяких NPC на карті
+Система PcBang/PcCafe використовує Npc Adventure Guildmans для обміну очок події
+Бафи накладаються індивідуально, а не дублюються на вихованця
+Радіус повідомлень Sel Mahun обмежено навколо NPC
+Виправлено візуальне переміщення монстрів при огинанні перешкод
+NPC Delevel Manager перероблено
+Вкладки communityBoard відновлені до офіційного стану
+Виправлено деякі квести, що були зламані (14 квестів)
+Виправлено різні предмети (38 предметів)
+Виправлено різні скіли (152 скіли)
 
 
 ==================================================================================================
-NPCs Custom
+Виправлення для системи
 ==================================================================================================
-12 - Buffer
-15 - Buffer Premium
-36603 - GM Shop
-36604 - Delevel Manager
-70000 - Achievement Manager
-70001 - Collectible Archives (em construção)
-1003000 - Nobless
-
-
-==================================================================================================
-Lista de fix (resumida)
-==================================================================================================
-Monstros se buffam
-IA de varios monstros e bosses nao funcionavam(Cruma, Den of Evil, Forest of Dead)
-Chat global nao anunciava mensagens
-Validacao do HexId impede criacao automatica de outros mundos no menu
-Adicionado Skills dos agathions que faltavam
-Skill Chain Heal funcionando conforme descrição
-Movimentação dos monstros pelo geodata
-Regeneração dos pets sincronizadas com a UI
-Pets com sistema de apoio e ataque
-Skills dos pets sincronizadas com o level na UI
-Dark Cloud Mansion agora não buga a ultima sala
-Mana Potion e Mana Drug funcionam como poções
-Efeitos de areas com chance exata
-Mensagens de Four Sepulcher nao ficam em branco
-comando CombineTalisman agora combina os talismans
-Elrokians tem todas as htmls
-Delusion Chamber agora teleporta para a ultima sala
-Npc NoblessMaster agora cobra pelo serviço
-Cancel dos bosses não é mais 100%
-Placar do CTF agora mostra pontuação
-Olimpiada mostra placar ao terminar as lutas
-Areas de banho em HotSpring removem efeitos das doenças de forma gradativa
-Fix na posição de alguns NPCs no mapa
-Sistema PcBang/PcCafe usam Npcs Adventure Guildmans para trocar os pontos do evento
-Buffs aplicados individualmente e não duplicados no pet
-Range das mensagens do Sel Mahun foi limitada ao redor do Npc
-Fix na movimentacao visual dos monstros contornando obstaculos
-Npc Delevel Manager refeito
-Abas da communityBoard retail reconstruidas
-Fix em algumas quests que estavam quebradas (14 Quests)
-Fix em Vários itens (38 itens)
-Fix em várias skills (152 skills)
-
-
-==================================================================================================
-Fix na system
-==================================================================================================
-Descrição e funcionamento da Mana Drug/Mana Potion
-Descrição da skill Bear Spirit Totem
-Animação das skills Silence e Sleep no monstro Eye of Watchman
-Icone de várias skills
+Опис та функціонування Mana Drug/Mana Potion
+Опис вміння Bear Spirit Totem
+Анімація вмінь Silence та Sleep у монстра Eye of Watchman
+Іконка кількох вмінь
