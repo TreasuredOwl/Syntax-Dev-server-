@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../data/xsd/AccessLevels.xsd">
+	<!-- Access levels -->
+	<access level="-1" name="Забанений" nameColor="FFFFFF" titleColor="ECF9A2" isGM="false" allowPeaceAttack="false" allowFixedRes="false" allowTransaction="false" allowAltg="false" giveDamage="false" takeAggro="false" gainExp="false" />
+	<access level="0" name="Гравець" nameColor="FFFFFF" titleColor="ECF9A2" childAccess="0" isGM="false" allowPeaceAttack="false" allowFixedRes="false" allowTransaction="true" allowAltg="false" giveDamage="true" takeAggro="true" gainExp="true" />
+	<access level="10" name="Чат Модератор" nameColor="FFFFFF" titleColor="ECF9A2" childAccess="0" isGM="false" allowPeaceAttack="false" allowFixedRes="false" allowTransaction="true" allowAltg="false" giveDamage="true" takeAggro="true" gainExp="true" />
+	<access level="20" name="Тест ГМ" nameColor="FFFFFF" titleColor="ECF9A2" childAccess="10" isGM="false" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" />
+	<access level="30" name="Генерал ГМ" nameColor="0000C0" titleColor="0000C0" childAccess="20" isGM="false" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" />
+	<access level="40" name="Підтримка ГМ" nameColor="000C00" titleColor="000C00" childAccess="30" isGM="false" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" />
+	<access level="50" name="Евент ГМ" nameColor="00C000" titleColor="00C000" childAccess="40" isGM="false" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="false" allowAltg="true" giveDamage="false" takeAggro="false" gainExp="false" />
+	<access level="60" name="Головний ГМ" nameColor="0C0000" titleColor="0C0000" childAccess="50" isGM="false" allowPeaceAttack="false" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true" takeAggro="true" gainExp="true" />
+	<access level="70" name="Админ" nameColor="0FF000" titleColor="0FF000" childAccess="60" isGM="true" allowPeaceAttack="true" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true" takeAggro="true" gainExp="true" />
+	<access level="100" name="Майстер" nameColor="00CCFF" titleColor="00CCFF" childAccess="70" isGM="true" allowPeaceAttack="true" allowFixedRes="true" allowTransaction="true" allowAltg="true" giveDamage="true" takeAggro="true" gainExp="true" />
+</list>

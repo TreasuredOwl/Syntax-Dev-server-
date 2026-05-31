@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Примітка: Якщо файл має назву "ipconfig.xml", ці дані будуть використані як конфігурація мережі, інакше сервер налаштує їх автоматично! -->
+<!-- Зовнішній хост тут (IP-адреса в Інтернеті) або IP-адреса Localhost для локального тестування -->
+<gameserver address="127.0.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../data/xsd/ipconfig.xsd">
+    <!-- Локальний хост тут -->
+	<define subnet="127.0.0.0/8" address="127.0.0.1" />
+    <!-- Внутрішні хости тут (IP-адреси локальної мережі) -->
+	<define subnet="10.0.0.0/8" address="10.0.0.0" />
+	<define subnet="172.16.0.0/19" address="172.16.0.0" />
+	<define subnet="192.168.0.0/16" address="192.168.0.0" />
+	<define subnet="192.168.0.0/24" address="192.168.0.0" />
+	<define subnet="192.168.1.0/24" address="192.168.1.0" />
+</gameserver>
