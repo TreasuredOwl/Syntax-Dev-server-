@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "L2Journey - LoginServer"
+echo "-Syntax-Dev - [Логин Сервер]"
 echo "------------------------------------------------------------------------------"
 
 while true; do
-    echo "Iniciando Loginserver."
+    echo "Запуск Логин Сервера [Aeterna x5 - Стабільна Версія]."
     echo "------------------------------------------------------------------------------"
 
     java -server \
@@ -21,17 +21,17 @@ while true; do
 
     if [ $EXIT_CODE -eq 2 ]; then
         echo ""
-        echo "Admin Restarted Login Server."
+        echo "Адміністратор перезапустив Логин Сервер."
         echo ""
         continue
     elif [ $EXIT_CODE -eq 1 ]; then
         echo ""
-        echo "Login Server parou inesperadamente!"
+        echo "Логин Сервер неочікувано зупинився!"
         echo ""
         break
     else
         echo ""
-        echo "Login Server Terminou."
+        echo "Логин Сервер завершив роботу."
         echo ""
         break
     fi
