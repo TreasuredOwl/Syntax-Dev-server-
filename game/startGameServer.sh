@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "L2Journey - Gameserver"
+echo "-Syntax-Dev - [Гейм Сервер]"
 echo "------------------------------------------------------------------------------"
 
 while true; do
-    echo "Iniciando GameServer."
+    echo "Запуск Гейм Сервера [Aeterna x5 - Стабільна Версія]."
     echo "------------------------------------------------------------------------------"
 
     java -server \
@@ -29,17 +29,17 @@ while true; do
 
     if [ $EXIT_CODE -eq 2 ]; then
         echo ""
-        echo "Admin Restarted Game Server."
+        echo "Адміністратор перезапустив Гейм Сервер."
         echo ""
         continue
     elif [ $EXIT_CODE -eq 1 ]; then
         echo ""
-        echo "Game Server parou inesperadamente!"
+        echo "Гейм Сервер неочікувано зупинився!"
         echo ""
         break
     else
         echo ""
-        echo "Game Server Terminado."
+        echo "Гейм Сервер завершив роботу."
         echo ""
         break
     fi
